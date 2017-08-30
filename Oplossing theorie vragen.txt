@@ -1,8 +1,18 @@
 Theorie vragen Design Patterns & ICT Architectuur:
 
 Vraag 1, Hoe zou je security in deze applicatie implementeren? Illustreer met een tekening.:
+	Hetgeen wat als eerste opvalt in de huidige structuur van de applicatie is het feit
+	dat er geen Proxy gebruikt wordt bij de "online shop web front-end" De proxy zorgt voor 
+	het beheren en sturen van data van van de back-end naar de front-end gaat. Dus om de front-end
+	niet af te schermen van de back-end is hier mogelijks een beveiligings risico.
+	Het feit dat er gebruik wordt gemaakt van een "Third party Accounting App" is op zichzelf
+	een zeer goed idee omdat je dan ook de security achter deze betaling ook weer outsourced
+	( in het geval moest deze derde party software door een betrouwbaar bedrijf ontwikkeld zijn geweest). 
+
 Vraag 2, Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.:
 Vraag 3, Waar zit het grootste risico in deze architectuur?:
+		
+
 Vraag 4, Beschrijf in je eigen woorden wat software architectuur is.:
 	Er zijn heel veel verschillende definities van architectuur. Waarvoor een definitie heel moeilijk te geven is. 
 	Maar er zijn een paar one-liners die in de cursus voorkomen die zeer dicht er tegenaan leunen.
