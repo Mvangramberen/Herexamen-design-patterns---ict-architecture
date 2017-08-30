@@ -1,0 +1,10 @@
+Theorie vragen Design Patterns & ICT Architectuur:
+
+Vraag 1, Hoe zou je security in deze applicatie implementeren? Illustreer met een tekening.:
+Vraag 2, Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.:
+Vraag 3, Waar zit het grootste risico in deze architectuur?:
+Vraag 4, Beschrijf in je eigen woorden wat software architectuur is.:
+	
+
+
+
