@@ -12,7 +12,7 @@ public class DoorsOpenCommand implements Command {
     Living living;
     Bedroom bedroom;
 
-    public void DoorsOpenCommand(Bathroom bathroom, Bedroom bedroom, Kitchen kitchen, Living living){
+    public DoorsOpenCommand(Bathroom bathroom, Bedroom bedroom, Kitchen kitchen, Living living){
         this.bathroom = bathroom;
         this.bedroom = bedroom;
         this.kitchen = kitchen;

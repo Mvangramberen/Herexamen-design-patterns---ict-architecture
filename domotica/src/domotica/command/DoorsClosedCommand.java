@@ -11,13 +11,12 @@ public class DoorsClosedCommand implements Command {
     Living living;
     Bedroom bedroom;
 
-    public void DoorsClosedCommand(Bathroom bathroom, Bedroom bedroom, Kitchen kitchen, Living living){
+    public DoorsClosedCommand(Bathroom bathroom, Bedroom bedroom, Kitchen kitchen, Living living){
         this.bathroom = bathroom;
         this.bedroom = bedroom;
         this.kitchen = kitchen;
         this.living = living;
     }
-
 
     @Override
     public void Execute() {
