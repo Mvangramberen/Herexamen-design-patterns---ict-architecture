@@ -10,7 +10,16 @@ Vraag 1, Hoe zou je security in deze applicatie implementeren? Illustreer met ee
 	( in het geval moest deze derde party software door een betrouwbaar bedrijf ontwikkeld zijn geweest). 
 
 Vraag 2, Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.:
+	Het centrale punt in deze applicatie is toch wel de BLL. Dus het meest logische is om daar
+	de logging in te gaan implementeren. Dit is de enigste plaats in heel de applicatie waar dat
+	alle data langs passeert. Op deze manier kan je zowel loggen welke games nog beschikbaar zijn 
+	of eventueel in omloop maar je kan ook loggen wat de statussen zijn van betalingen. 
+	Dit kan je dan weer doen door dit in een proxy bij in te verwerken.
+	Logging applicaties/code zijn gemakkelijk te vinden door derde partij softwareontwikkelaars met
+	een betrouwbare achtergrond. 
+
 Vraag 3, Waar zit het grootste risico in deze architectuur?:
+	
 		
 
 Vraag 4, Beschrijf in je eigen woorden wat software architectuur is.:
