@@ -4,7 +4,14 @@ Vraag 1, Hoe zou je security in deze applicatie implementeren? Illustreer met ee
 Vraag 2, Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.:
 Vraag 3, Waar zit het grootste risico in deze architectuur?:
 Vraag 4, Beschrijf in je eigen woorden wat software architectuur is.:
-	
+	Er zijn heel veel verschillende definities van architectuur. Waarvoor een definitie heel moeilijk te geven is. 
+	Maar er zijn een paar one-liners die in de cursus voorkomen die zeer dicht er tegenaan leunen.
+	een one-liner die mij bij blijft is: Architectuur is hetgeen wat je overhoud als je alles wegneemt,
+	tot het punt dat je nog wel het volledige softwareproject kan begrijpen. 
+	Hier leid ik dus uit af dat Architectuur het idee achter een softwareproject is. Dit is het abstracte deel
+	dat nodig is om een softwareproject te kunnen begrijpen. Zonder de architectuur zou iedereen een andere
+	interpretatie hebben van het bedoelde eindresultaat. De architectuur is dus in staat om deze te verduidelijken.
+
 
 
 
