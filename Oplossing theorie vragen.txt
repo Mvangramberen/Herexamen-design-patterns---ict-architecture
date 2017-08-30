@@ -19,7 +19,14 @@ Vraag 2, Hoe zou je logging in deze applicatie implementeren? Illustreer met een
 	een betrouwbare achtergrond. 
 
 Vraag 3, Waar zit het grootste risico in deze architectuur?:
-	
+	Er zijn eigenlijk 2 grote risicos te zien in deze architectuur:
+	1) Het beveiligings risico dat tezien is door geen proxy te gebruiken bij een van de front-ends.
+	waardoor het voor cyber aanvallen kwetsbaar wordt. Dit is volgens mij het risico dat het meeste 
+	problemen met zich mee kan brengen. 
+	2) De derde partij applicaties die gebruikt worden zijn nooit in eigen beheer dus de kans bestaat
+	dat op termijn de "support" op deze applicaties verdwijnt. De kans bestaat er ook in dat deze 
+	applicaties na een update, het formaat van u eigen data niet meer ondersteunt. Dit zorgt ervoor
+	dat er dan onderhoud aan u eigen software uitgevoerd moet worden en dit kan voor serieuze kosten zorgen. 
 		
 
 Vraag 4, Beschrijf in je eigen woorden wat software architectuur is.:
